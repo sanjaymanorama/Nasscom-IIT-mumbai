@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanjaycodes - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">Sanjaycodes</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <!-- Dark Mode Toggle -->
+            <div class="theme-toggle-container">
+                <input type="checkbox" id="darkModeToggle" class="theme-toggle-checkbox">
+                <label for="darkModeToggle" class="theme-toggle-label">
+                    <span class="sun-icon">☀️</span>
+                    <span class="moon-icon">🌙</span>
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image-container">
+                    <img src="images/profile.jpg" alt="Sanjaycodes" class="profile-image" id="profileImage">
+                </div>
+                <h1 class="hero-title">Hi, I'm <span class="highlight">Sanjaycodes</span></h1>
+                <p class="hero-subtitle">Full Stack Developer | Problem Solver | Tech Enthusiast</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="contactBtn">Get In Touch</button>
+                    <button class="btn btn-secondary" id="projectsBtn">View Projects</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate developer with expertise in building scalable web applications 
+                        and solving complex problems. I love turning ideas into reality through code 
+                        and continuously learning new technologies.
+                    </p>
+                    <p>
+                        With a strong foundation in both frontend and backend development, I create 
+                        seamless user experiences and robust systems that make a difference.
+                    </p>
+                </div>
+                <div class="skills">
+                    <h3>Skills & Technologies</h3>
+                    <div class="skills-grid">
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=400&fit=crop" alt="E-Commerce Platform" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A full-stack e-commerce solution with user authentication, payment integration, 
+                            and admin dashboard. Built with React, Node.js, and MongoDB.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=400&fit=crop" alt="Task Management App" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Task Management App</h3>
+                        <p class="project-description">
+                            A collaborative task management application with real-time updates, 
+                            drag-and-drop functionality, and team collaboration features.
+                        </p>
+                        <div class="project-tech">
+                            <span>Vue.js</span>
+                            <span>Express</span>
+                            <span>PostgreSQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=400&fit=crop" alt="Data Analytics Dashboard" class="project-img">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Data Analytics Dashboard</h3>
+                        <p class="project-description">
+                            An interactive dashboard for data visualization and analytics with 
+                            real-time data processing, customizable charts, and export functionality.
+                        </p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Python</span>
+                            <span>D3.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Live Demo</a>
+                            <a href="#" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    I'm always open to discussing new projects, creative ideas, or opportunities 
+                    to be part of your visions.
+                </p>
+                <div class="contact-info">
+                    <a href="mailto:sanjay@example.com" class="contact-item">
+                        <span class="contact-icon">📧</span>
+                        <span>Email</span>
+                    </a>
+                    <a href="https://github.com/sanjaycodes" class="contact-item" target="_blank">
+                        <span class="contact-icon">💻</span>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="https://linkedin.com/in/sanjaycodes" class="contact-item" target="_blank">
+                        <span class="contact-icon">💼</span>
+                        <span>LinkedIn</span>
+                    </a>
+                </div>
+                <button class="btn btn-primary" id="scrollTopBtn">Back to Top</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Sanjaycodes. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
